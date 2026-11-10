@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="TechZone, catátalogo de componentes de hardware.">
+        <tittle>TechZone | Catátalogo de hardware</tittle>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>TechZone</h1>
+            <p>Explora el mundo del hardware</p>
+            <nav aria-label="Navegación principal">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#catalogo">Catátalogo</a></li>
+                    <li><a href="#categorias">Categorias</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="inicio">
+               <div class="contenido-inicio">
+
+                <h2>Explora el mundo del hardware</h2>
+
+                <p>
+                    Descubre procesadores, tarjetas gráficas,
+                    memorias RAM y unidades de almacenamiento.
+                    Conoce sus caracteristicas y encuentra
+                    información sobre los componentes de tu PC.
+                </p>
+
+                <a href="#catalogo" class="boton-principal">
+                    Explora catálogo
+                </a>
+
+
+               </div>
+            </section>
+            <section id="catatalogo">
+                <h2>Catátalogo de componentes</h2>
+                <p>
+                    Explora nuestra sección de componentes
+                    y conoce sus principales caracteristicas.
+                </p>
+                <div class="contenedor-productos">
+                    <article class="producto">
+                        <h3>Procesadores</h3>
+                        <p>
+                            Conoce diferentes procesadores
+                            y sus principales caracteristicas.
+                        </p>
+                        <a href="#categorias">Ver componetes</a>
+                    </article>
+                    <article class="producto">
+                        <h3>Tarjetas gráficas</h3>
+                        <p>
+                            Explora tarjetas gráficas diseñadas
+                            para videojuegos y otras aplicaciones.
+                        </p>
+                        <a href="#categorias">Ver componentes</a>
+                    </article>
+                    <article class="producto">
+                        <h3>Memorias RAM</h3>
+                        <p>
+                            Descubre las difrentes memorias RAM y
+                            sus especificaciones.
+                        </p>
+                        <a href="#categorias">Ver componentes</a>
+                    </article>
+                    <article class="producto">
+                        <h3>Almacenamiento</h3>
+                        <p>
+                            Consulta información sobre unidades
+                            SSD y otras tecnologias de almacenamiento.
+                        </p>
+                        <a href="#categorias">Ver componentes</a>
+                    </article>
+                </div>
+            </section>
+                </section> <!-- Fin del catálogo -->
+
+    <section id="categorias">
+        <section id="categorias">
+                <h2>Categorias de hardware</h2>
+                <p>
+                    Selecciona una categoría para explorar
+                    los diferntes componentes disponibles.
+                </p>
+                <div class="contenedor-categorias">
+                    <button type="button" class="categoria"
+                    data-categoria="todos">
+                    Todos
+                </button>
+                <button type="button" class="categoria"
+                data-categoria="procesadores">
+                Procesadores
+            </button>
+            <button type="button" class="categoria"
+            data-categoria="graficas">
+            Tarjetas Gráficas
+        </button>
+        <button type="button" class="categoria"
+        data-categoria="ram">
+        Memorias RAM
+    </button>
+    <button type="button" class="categoria"
+    data-categoria="almacenamiento">
+    Almacenamiento
+</button>
+                </div>
+  
+
+    </section>
+
+    <section id="componentes">
+
+
+
+                <h2>Explora nuestros componentes</h2>
+                <p>
+                    Conoce algunos de los componentes de hardware
+                    y sus principales especificaciones técnicas.
+                </p>
+                <div class="contenedor-buscador">
+
+                    <label for="buscador">
+                        Buscar componentes
+                    </label>
+
+                    <input
+                    type="search"
+                    id="buscador"
+                    placeholder="Ejemplo: Ryzen, NVIDIA, Samsung..."
+                    autocomplete="off"
+                    >
+                </div>
+                <p id="mensaje-busqueda"
+                role="status"
+                aria-live="polite"></p>
+
+                <div class="contenedor-componente">
+
+
+                    <article class="componente"
+                    data-categoria="procesadores">
+
+                    <img src="img/AMD 7600.webp"
+                    alt="Procesador AMD Ryzen 5 7600">
+
+                    <h3>AMD Ryzen 7600</h3>
+
+
+                    <p>
+                        Procesador AMD de arquitectura Zen 4,
+                        ideal para videojuegos y productividad.
+                    </p>
+
+                    <ul>
+                        <li>6 núcleos y 12 hilos</li>
+                        <li>Frecuencia máxima: 5.1 GHz</li>
+                        <li>Socket AM5</li>
+                    </ul>
+                    <button type="button" class="boton-detalles">
+                        Ver detalles
+                    </button>
+                </article>
+                <article class="componente"
+                data-categoria="procesadores">
+                <img src="img/intel.webp"
+                alt="Procesador Intel Core i5 14400f">
+
+                <h3>Intel Core i5 14400f</h3>
+
+
+                <p>
+                    Procesador Intel de 14.ª generación,
+                    diseñado para diferentes tareas
+                    y videojuegos.
+                </p>
+                <ul>
+                    <li>10 núcleos y 16 hilos</li>
+                    <li>Frecuencia máxima: 4.7 GHz</li>
+                    <li>Socket LGA1700</li>
+                </ul>
+
+                <button type="button" class="boton-detalles">
+                    Ver detalles
+                </button>
+            </article>
+
+            <article class="componente"
+            data-categoria="graficas">
+            <img src="img/Rx 9070xt.jpg"
+            alt="Tarjeta gráfica AMD Radeon RX 9070 XT">
+
+            <h3>AMD Radeon RX 9070 XT</h3>
+
+            <p>
+                Tarjeta  gráfica AMD con arquitectura RDNA 4,
+                diseñadas para videojuegos de alta calidad. 
+            </p>
+
+            <ul>
+                <li>16 GB de memoria GDDR6</li>
+                <li>Arquitectura RDNA 4</li>
+                <li>Interfaz PCI Express 5.0</li>
+            </ul>
+
+            <button type="button" class="boton-detalles">
+                Ver detalles
+            </button>
+
+        </article>
+        <article class="componente"
+        data-categoria="graficas">
+
+        <img src="img/rtx5070.webp"
+        alt="Tarjeta gráfica NVIDIA GeForce RTX 5070">
+
+        <h3>NVIDIA GeForce RTX 5070</h3>
+
+        <p>
+            Tarjeta gráfica NVIDIA con arquitectura
+            Blackwell, diseñadas para videojuegos
+            y otras aplicaciones gráficas
+        </p>
+
+        <ul>
+            <li>12 GB de memoria GDDR7</li>
+            <li>Arquitectura Blackwell</li>
+            <li>Interfaz PCI Express 5.0</li>
+        </ul>
+
+        <button type="button" class="boton-detalles">
+            Ver detalles
+        </button>
+
+    </article>
+    <article class="componente"
+    data-categoria="ram">
+    <img src="img/Ram fury beast.jpg"
+    alt="Memoria RAM Kingston FURY Beast DDR5">
+
+    <h3>Kingston FURY Beast DDR5</h3>
+
+    <p>
+        Memoria RAM DDR5 diseñada para ofrecer
+        un excelente rendimiento en videojuegos
+        y tareas de productividad.
+    </p>
+
+    <ul>
+        <li>Tecnologia DDR5</li>
+        <li>Compatible con plataformas DDR5</li>
+        <li>Soporte para perfiles de overclocking</li>
+    </ul>
+
+    <button type="button" class="boton-detalles">
+        Ver detalles
+    </button>
+</article>
+
+<article class="componente"
+data-categoria="ram">
+
+<img src="img/Corsair vegance.jpg"
+alt="Memoria RAM Corsair Vengeance DDR5">
+
+<h3>Corsair Vengeance DDR5</h3>
+
+<p>
+    Memoria RAM de alto rendimiento,
+    diseñada para computadores modernos
+    y aplicaciones exigentes.
+</p>
+
+<ul>
+    <li>Tecnologia DDR5</li>
+    <li>Diseño con disipador de calor</li>
+    <li>Compatible con plataformas DDR5</li>
+</ul>
+
+<button type="button" class="boton-detalles">
+    Ver detalles
+</button>
+
+</article>
+<article class="componente"
+data-categoria="almacenamiento">
+
+<img src="img/alma samsung.jpg"
+alt="Unidad SSD samsung 990 PRO">
+
+<h3>Samsung 990 PRO</h3>
+
+<p>
+    Unidad de almacenmiento SSD NVMe
+    de alto rendimiento, ideal para
+    videojuegos y aplicaciones exigentes.
+</p>
+
+<ul>
+    <li>Interfaz PCI Express 4.0</li>
+    <li>Formato M.2 2280</li>
+    <li>Velocidad de lectura de hatsa 3450 MB/s</li>
+</ul>
+
+<button type="button" class="boton-detalles">
+    Ver detalles
+</button>
+</article>
+
+<article class="componente"
+data-categoria="almacenamiento">
+
+<img src="img/WD m.2.jpg"
+alt="Unidad SSD WD_BLACK SN850X">
+
+<h3>WD_BLACK SN850X</h3>
+
+<p>
+    Unidades SSD NVMe diseñada para ofrecer
+    velocidades elevadas y un excelente
+    rendimiento en videojuegos.
+</p>
+
+<ul>
+    <li>Interfaz PCI Express 4.0</li>
+    <li>Formato M.2 2280</li>
+    <li>Velocidad de lectura de hasta 7300 MB/s</li>
+</ul>
+
+<button type="button" class="boton-detalles">
+    Ver detalles
+</button>
+
+</article>
+
+
+                </div>
+            </section>
+            <dialog id="ventana-detalles">
+
+                <div class="contendio-detalles">
+
+                    <button
+                    type="button"
+                    id="cerrar-detalles"
+                    aria-label="Cerrar detalles">
+                    &times;
+                </button>
+
+                <h2 id="detalle-nombre"></h2>
+
+                <img
+                id="detalle-imagen"
+                src=""
+                alt=""
+                >
+
+                <p id="detalle-descripcion"></p>
+
+                <h3>Especificaciones ténicas</h3>
+
+                <ul id="detalle-especificaciones"></ul>
+
+                </div>
+            </dialog>
+            
+            <section id="nosotros">
+                <h2>Sobre TechZone</h2>
+
+
+                <div class="contenido-nosotros">
+
+
+                    <h3>¿Qué es TechZone?</h3>
+
+
+                    <p>
+                        TechZone es una plataforma we dedicada
+                        a proporcionar información clara y 
+                        organizada sobre difrentes componentes
+                        de hardware para computadores.
+                    </p>
+
+
+                    <h3>Nuestro propósito</h3>
+
+
+                    <p>
+                        Facilitar el acceso a información sobre
+                        procesadores, tarjetas gráficas, memorias
+                        RAM y unidades de almacenamiento,
+                        ayudando a los usuarios a conocer sus
+                        caracteristicas y especificaciones técnicas.
+                    </p>
+
+
+                    <h3>¿Qué ofrecemos?</h3>
+
+
+                    <p>
+                        Un catálogo de componentes organizado
+                        por categorias, con información técnica
+                        y una interfaz sencilla, accesible y
+                        adaptable a diferentes dispositivos.
+                    </p>
+
+
+                </div>
+            </section>
+            <section id="contacto">
+                <h2>Contáctanos</h2>
+
+                <p>
+                    ¿Tienes alguna pregunta sobre componentes
+                    de hardware? Envianos tu consulta.
+                </p>
+
+                <form id="formulario-contacto">
+
+                    <div class="grupo-formulario">
+                        <label for="nombre">Nombre completo</label>
+                        <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Escribe tu nombre"
+                        autocomplete="name"
+                        required
+                        >
+                    </div>
+
+                    <div class="grupo-formulario">
+                        <label for="correo">Correo electrónico</label>
+                        <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        placeholder="ejemplo@correo.com"
+                        autocomplete="email"
+                        required
+                        >
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="asunto">Asunto</label>
+                        <select id="asunto" name="asunto" required>
+                            <option value="">Seleciona una opción</option>
+                            <option value="procesadores">Procesadores</option>
+                            <option value="graficas">Tarjetas Gráficas</option>
+                            <option value="ram">Memorias RAM</option>
+                            <option value="almacenamiento">Almacenamiento</option>
+                            <option value="otro">Otra consulta</option>
+                        </select>
+                    </div>
+                    <div class="grupo-formulario">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        rows="5"
+                        placeholder="Escribe tu consulta aqui..."
+                        required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit">Enviar mensaje</button>
+                    
+                    <p id="respuesta-formulario" role="status"
+                    aria-live="polite"></p>
+
+
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 TechZone - Proyecto académico</p>
+        </footer>
+
+
+        <script src="js/script.js" defer></script>
+    </body>
+</html>
